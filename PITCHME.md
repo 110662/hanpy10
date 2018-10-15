@@ -14,7 +14,9 @@
 ---    
      
 Dash User Guideを見ながら作った。     
+<br>
 資料を見てもわからない場合はここへ     
+<br>
 https://dash.plot.ly/     
      
 ---
