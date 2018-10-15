@@ -31,22 +31,23 @@ React: フロントエンドのレンダーコンポーネント　悪名高きF
 --- 
 
 可視化　/ データ分析において重要。データ眺める時間が多い。     
-
+<br>
 可視化ツール　/ たくさんある。大体pandasとの親和性も高いし、どれも良い。     
 代表的なもの　matplotlib/ seaborn/ bokeh /plotly     
-
+<br>
 きれいに見える＆簡単にかけるのが良いと思う。グラフ書くのって意外に難しかったりする。     
-で、最近機能的にDash凄いなと思ったので紹介します。     
+で、最近機能的にDash凄いなと思ったので紹介。     
 
 ---     
 
 すごみ     
+<br>
 サイトを見るとわかる。（ギャラリー）    
+<br>
 https://dash.plot.ly/gallery     
 
 ---
 
-Dashのよいところ（僕の表現できる限りの）    
 Plotlyは凄いグラフ書くの簡単    
 しかし・・・idとかpassword、さらにAPIの制限とかあった。    
 まぁ有料ツールだしね　＝＝＞　Dashは制限が何もない。     
@@ -58,20 +59,23 @@ Plotlyは凄いグラフ書くの簡単
 ---    
 
 ちょっと書いてみる。     
-
+<br>
+import 
+<br>
 dash /     
 入れものつくり     
-     
-dash_core_component / https://dash.plot.ly/dash-core-components          
+<br>     
+dash_core_component /     
+https://dash.plot.ly/dash-core-components          
 色々なツールとグラフを書くツールが入っている。     
-     
+<br>     
 dash_html_component /      
 htmlを書くのに使う。     
      
 ---    
 
 callback      
-
+<br>
 まずユーザーがアプリをスタートした時点でデータがメモリに読み込まれる。      
 可能であればグローバルスコープでデータの読み込みは行われるべきだ。      
 コールバックはスコープの外側のデータを変化させるべきではない。      
@@ -84,11 +88,11 @@ https://qiita.com/jkr_2255/items/66a16bd969454ee8b114
 たぶんそういうことなのだろう。      
 ちなみに作る時には、適当に入れてみて、エラーを見て変えてみたいな感じで作っている。      
       
-Stateというのもあってやな。      
+* Stateというのもあってやな。      
       
-グラフを作る際のデータの形。      
+* グラフを作る際のデータの形。      
       
-Liveupdate / dccのIntervalを使う。      
+* Liveupdate / dccのIntervalを使う。      
       
 ----     
 
