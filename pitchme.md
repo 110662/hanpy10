@@ -21,7 +21,9 @@ https://dash.plot.ly/
      
 Dash / Flask, Plotly.js, React.jsを使って作られたデータビジュアライゼーションアプリ。      
        webブラウザーに出力できる。     
+<br>
 flask: Pythonのウェブサーバーライブラリ     
+<br>
 React: フロントエンドのレンダーコンポーネント　悪名高きFacebookがメンテしてるらしい     
 
 --- 
