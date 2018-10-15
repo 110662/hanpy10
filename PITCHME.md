@@ -94,7 +94,9 @@ https://qiita.com/jkr_2255/items/66a16bd969454ee8b114
       
 ---         
 
-newsapi 
-https://newsapi.org/
-fivrthirtyeight
-https://fivethirtyeight.com/
+使われてたデータで気になったもの      
+<br>
+newsapi     
+https://newsapi.org/     
+fivrthirtyeight      
+https://fivethirtyeight.com/     
