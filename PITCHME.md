@@ -58,8 +58,6 @@ Plotlyは凄いグラフ書くの簡単
 
 ---    
 
-ちょっと書いてみる。     
-<br>
 import 
 <br>
 dash /     
@@ -94,7 +92,7 @@ https://qiita.com/jkr_2255/items/66a16bd969454ee8b114
       
 * Liveupdate / dccのIntervalを使う。      
       
-----     
+---         
 
 newsapi 
 https://newsapi.org/
