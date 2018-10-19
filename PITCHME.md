@@ -3,17 +3,26 @@
 
 ---    
 
-目次     
-1. Dashの解説      
+目次    
+
+1 Dashの解説      
 2．Dashのギャラリーで実際に見てみる     
 3．ちょっとコードを見てみる     
 3.1　ちょっと難しかったところ-callback      
 3.2  データの形     
 3.3　リアルタイムで使う     
 
+---
+自己紹介
+* 小川英幸(@mazarimono)    
+* はんなりPython主催者     
+* Blockchainkyotoも主催    
+* プログラマーではありません。     
+* 最近ハッカソン行ってみたいなと思っている。    
+      
 ---    
      
-Dash User Guideを見ながら作った。     
+Dash User Guideを見ながら。     
 <br>
 資料を見てもわからない場合はここへ     
 <br>
@@ -48,8 +57,9 @@ https://dash.plot.ly/gallery
 
 ---
 
-Plotlyは凄いグラフ書くの簡単    
-しかし・・・idとかpassword、さらにAPIの制限とかあった。    
+## Plotlyは凄いグラフ書くの簡単    
+しかし・・・idとかpassword、さらにAPIの制限とかあった。   
+<br> 
 まぁ有料ツールだしね　＝＝＞　Dashは制限が何もない。     
 
 ブラウザーで見られる    
@@ -58,20 +68,19 @@ Plotlyは凄いグラフ書くの簡単
 
 ---    
 
-import 
+## import 
 <br>
 dash /     
-入れものつくり     
-<br>     
+入れものつくり         
 dash_core_component /     
 https://dash.plot.ly/dash-core-components          
 色々なツールとグラフを書くツールが入っている。     
-<br>     
 dash_html_component /      
 htmlを書くのに使う。     
      
 ---    
 
+## わかりにくかったもの
 callback      
 <br>
 まずユーザーがアプリをスタートした時点でデータがメモリに読み込まれる。      
@@ -86,6 +95,8 @@ https://qiita.com/jkr_2255/items/66a16bd969454ee8b114
 たぶんそういうことなのだろう。      
 ちなみに作る時には、適当に入れてみて、エラーを見て変えてみたいな感じで作っている。      
       
+---    
+
 * Stateというのもあってやな。      
       
 * グラフを作る際のデータの形。      
