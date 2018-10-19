@@ -86,6 +86,7 @@ def draw_graph_live(n):
 
         data = pd.concat([data, data2])
 
+        data = data[['time', 'sin']]
         data.to_csv('data.csv')
 
  
