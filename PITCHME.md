@@ -22,7 +22,8 @@
       
 ---    
      
-Dash User Guideを見ながら。     
+Dash User Guideを見ながら。作りました。     
+コードなどはgithubに； https://github.com/mazarimono/hanpy10    
 <br>
 資料を見てもわからない場合はここへ     
 <br>
