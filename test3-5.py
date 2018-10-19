@@ -74,7 +74,7 @@ def draw_graph_live(n):
         data2 = pd.DataFrame()
 
         t = datetime.now()
-        sin_n = np.sin(time.time()/10)
+        sin_n = np.sin(time.time())
 
         list_time = []
         list_time.append(t)

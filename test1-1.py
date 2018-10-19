@@ -7,6 +7,11 @@ import pandas as pd
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 
+colors = {
+    'background': '#111111',
+    'text': '#7FDBFF'
+}
+
 app.layout = html.Div(children=[
     html.H1('Hello はんなり Python!',
         style = {
@@ -16,7 +21,7 @@ app.layout = html.Div(children=[
     html.P('はんなりPythonは、はんなりとPythonについて話し合うグループです。',
         style = {
         'textAlign': 'center',
-        'color': 'gray'
+        'color': colors['text']
         }),
         dcc.Graph(
         id='example-graph',
@@ -27,6 +32,8 @@ app.layout = html.Div(children=[
             ],
             'layout': {
                 'title': 'Dash Data Visualization',
+                'plot_bgcolor': 'white',
+                'paper_bgcolor': 'white',
             }
         }
     )])
